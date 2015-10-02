@@ -1,0 +1,63 @@
+Options +FollowSymLinks -MultiViews
+#Turn mod_rewrite on
+RewriteEngine On
+RewriteBase /
+
+ErrorDocument 404 /404.php
+
+RewriteCond %{HTTP_HOST} ^(www.)?srednja.comuv.com/$
+RewriteRule ^(/)?$ /default.php [L]
+
+
+RewriteRule ^dnevnik/([1-4])/?$ dnevnik.php?razz=$1&nacin=0 [NC,L]
+RewriteRule ^dnevnik/([1-4])/test/?$ dnevnik.php?razz=$1&nacin=1 [NC,L]
+RewriteRule ^dnevnik/([1-4])/pismena/?$ dnevnik.php?razz=$1&nacin=2 [NC,L]
+RewriteRule ^dnevnik/([1-4])/([0-9]{1,2})/?$ ucenik.php?rzz=$1&ucen=$2 [NC,L]
+RewriteRule ^dnevnik/([1-4])/([0-9]{1,2})/([A-Za-z0-9]+)/?$ ucenik.php?rzz=$1&ucen=$2&rucno=$3 [NC,L]
+RewriteRule ^dnevnik/([1-4])/([A-Za-z0-9]+)/?$ dnevnik.php?razz=$1&nacin=3&rucn=$2 [NC,L]
+
+RewriteRule ^dnevnik/([0-9]{1,3})/?$ dnevnik.php?klasa=$1&nacin=0 [NC,L]
+RewriteRule ^dnevnik/([0-9]{1,3})/test/?$ dnevnik.php?klasa=$1&nacin=1 [NC,L]
+RewriteRule ^dnevnik/([0-9]{1,3})/pismena/?$ dnevnik.php?klasa=$1&nacin=2 [NC,L]
+
+
+RewriteRule ^unisti/?$ dnevnik.php?uniuni=1 [NC,L]
+RewriteRule ^vrati/?$ dnevnik.php?uniuni=2 [NC,L]
+
+
+RewriteRule ^ucenik/([0-9]+)/?$ ucenik.php?uceni=$1 [NC,L]
+RewriteRule ^ucenik/(.+)/?$ ucenik.php?ucenik=$1 [NC,L]
+
+RewriteRule ^ucenici/([1-4])/?$ ucenici.php?nekipost=$1 [NC,L]
+RewriteRule ^ucenici/svi/?$ ucenici.php?nekipost=0 [NC,L]
+
+
+RewriteRule ^profil/([0-9]+)/?$ profil.php?profaa=$1 [NC,L]
+RewriteRule ^profil/(.+)/?$ profil.php?profaaa=$1 [NC,L]
+
+
+RewriteRule ^backup/?$ probackup/bb.php [NC,L]
+
+RewriteRule ^odjava/?$ default.php?odjavi=da [NC,L]
+
+
+RewriteRule ^klase/nova/?$ klase.php?tip=nova [NC,L]
+RewriteRule ^klase/izmjena/?$ klase.php?tip=izmjena [NC,L]
+RewriteRule ^klase/izmjena/([0-9]{1,3})/?$ klase.php?tip=izmjena&prom=$1 [NC,L]
+RewriteRule ^klase/brisi/?$ klase.php?tip=brisi [NC,L]
+RewriteRule ^klase/brisi/([0-9]{1,3})/?$ klase.php?tip=brisi&brisemo=$1 [NC,L]
+
+
+## hide .php extension
+#To externally redirect /dir/foo.php to /dir/foo
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php[\s?] [NC]
+#RewriteRule ^ %1 [R=301,L]
+
+# To internally forward /dir/foo to /dir/foo.php
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+#RewriteRule ^(.+?)/?$ /$1.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(([A-Za-z0-9\-]+/)*[A-Za-z0-9\-]+)?$ $1.php

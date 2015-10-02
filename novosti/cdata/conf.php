@@ -1,2 +1,0 @@
-<?php die(); ?>
-a:2:{s:10:"crypt_salt";s:128:"4753d01de2a5841ca395df803f2887f6415f38d89233dd955f11dc1e85a2ee948e71a0760e3a7823e7633b4adc58d7ffa838ce23b44bc10bfdd37fd38cc311d3";s:11:"more_fields";a:0:{}}

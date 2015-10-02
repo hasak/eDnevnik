@@ -1,0 +1,668 @@
+# Webalizer V2.01-10 Incremental Data - 01/11/2015 11:29:02
+2015 1 11 11 29 2
+1666 1146 59 106 46 29 49043209 734 84 0 0 0
+5 1 143 1 11
+361 189 1927787 9 177 11 0 0
+309 201 5059292 18 129 20 0 0
+472 255 6897091 8 264 14 0 0
+108 95 6905613 5 28 6 0 0
+13 12 1157278 4 4 3 0 0
+61 59 4143363 4 21 6 0 0
+48 48 6177968 5 14 5 0 0
+54 52 3516514 8 29 6 0 0
+65 63 4216705 8 19 6 0 0
+110 109 5969029 7 32 5 0 0
+65 63 3072569 5 17 2 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+77 54 214282 57 0 0
+11 3 11952 3 0 0
+1 1 41370 0 0 0
+69 42 471982 37 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 1 5316 1 0 0
+88 44 1275708 31 0 0
+53 46 1430775 27 0 0
+255 106 2435500 128 0 0
+144 95 4323800 63 0 0
+70 40 1629828 47 0 0
+43 37 3110470 17 0 0
+47 32 3455689 8 0 0
+31 30 2755591 12 0 0
+101 77 1879037 32 0 0
+67 60 4118939 19 0 0
+124 110 4324362 55 0 0
+210 166 7052654 80 0 0
+192 127 4189696 86 0 0
+28 27 1858397 16 0 0
+33 32 1496984 13 0 0
+4 1 5592 1 0 0
+16 15 2955285 1 0 0
+0
+0
+0
+1146
+0
+0
+0
+0
+0
+21
+0
+3
+10
+0
+349
+0
+0
+0
+0
+0
+0
+54
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+83
+0
+0
+0
+0
+0
+# -urls- 
+/apikone/dodajprofh.png
+1 4 0 92784 0 0 0 0
+/iconss/odjava.png
+1 18 0 96162 0 0 0 0
+/ap.php
+0 7 0 62192 0 0 0 0
+/
+0 208 0 916023 55 6 0 0
+/onama.png
+1 15 0 2111748 0 0 0 0
+/jav.js
+0 72 0 25792 0 0 0 0
+/apikone/vladanjah.png
+1 6 0 80210 0 0 0 0
+/onama
+0 28 0 106759 4 1 0 0
+/ucenik/Hasakk
+0 1 0 3410 0 0 0 0
+/novosti/skins/cute.js
+0 7 0 1232 0 0 0 0
+/dnevnik/4d/pismena
+0 2 0 7840 0 0 0 0
+/gothic.ttf
+0 13 0 1791790 0 0 0 0
+/iconss/profilh.png
+1 12 0 63063 0 0 0 0
+/novosti/skins/images/home.gif
+1 1 0 152 0 0 0 0
+/apikone/dnevnici.png
+1 8 0 67359 0 0 0 0
+/iframe.html
+0 10 0 3634 1 1 0 0
+/apikone/profesori.png
+1 8 0 97339 0 0 0 0
+/novosti/skins/images/info.gif
+1 1 0 2699 0 0 0 0
+/greeting
+0 29 0 89272 0 0 0 0
+/stil.css
+0 87 0 160615 0 0 0 0
+/source/fancybox_loading.gif
+1 2 0 7004 0 0 0 0
+/novosti/core/ckeditor/ckeditor.js
+0 4 0 708 0 0 0 0
+/dnevnici
+0 4 0 9033 0 0 0 0
+/apikone/obavijesti.png
+1 8 0 91659 0 0 0 0
+/novosti/skins/images/users.gif
+1 3 0 456 0 0 0 0
+/iconss/postavke.png
+1 18 0 98416 0 0 0 0
+/logaut
+0 12 0 29617 0 0 0 0
+/apikone/postavkeh.png
+1 8 0 101644 0 0 0 0
+/novosti/skins/images/user.gif
+1 1 0 152 0 0 0 0
+/dnevnik.php
+0 1 0 3724 1 1 0 0
+/novosti/skins/images/editnews.gif
+1 1 0 152 0 0 0 0
+/statistika.php
+0 2 0 9120 0 0 0 0
+/iframestyle.css
+0 9 0 2517 0 0 0 0
+/postavke
+0 5 0 16855 0 0 0 0
+/novosti/skins/images/favicon.ico
+0 1 0 1410 0 0 0 0
+/dnevnik
+0 71 0 243962 9 7 0 0
+/ucenici.php
+0 12 0 67623 1 0 0 0
+/uplaodstyle/style.css
+0 1 0 997 0 0 0 0
+/iconss/homebutton.png
+1 18 0 66706 0 0 0 0
+/dnevnik/4d
+0 5 0 18597 0 0 0 0
+/lib/jquery-1.10.1.min.js
+0 6 0 34042 0 0 0 0
+/apikone/vladanja.png
+1 8 0 92514 0 0 0 0
+/default
+0 28 0 116503 0 1 0 0
+/ucenik/Hasak
+0 2 0 7181 1 0 0 0
+/novosti/
+0 55 0 197684 3 1 0 0
+/statistika
+0 2 0 6460 0 0 0 0
+/apikone/obavijestih.png
+1 3 0 64368 0 0 0 0
+/mi.png
+1 2 0 17448 0 0 0 0
+/iconss/postavkeh.png
+1 9 0 51522 0 0 0 0
+/ucenik
+0 17 0 54004 0 0 0 0
+/favicon.ico
+0 27 0 2898942 0 0 0 0
+/novosti/skins/images/addnews.gif
+1 3 0 456 0 0 0 0
+/apikone/profesorih.png
+1 3 0 69513 0 0 0 0
+/monstat
+0 1 0 2588 0 0 0 0
+/ucenici
+0 18 0 54571 1 0 0 0
+/razrednik
+0 1 0 3898 0 0 0 0
+/logo.png
+1 76 0 1513769 0 0 0 0
+/ap
+0 17 0 148770 3 0 0 0
+/spam/2015.gif
+1 52 0 1822829 0 0 0 0
+/source/fancybox_sprite.png
+1 2 0 1797 0 0 0 0
+/apikone/dodajprof.png
+1 8 0 97859 0 0 0 0
+/source/fancybox_overlay.png
+1 2 0 1438 0 0 0 0
+/source/jquery.fancybox.css
+0 6 0 2607 0 0 0 0
+/apikone/dodajrazredh.png
+1 4 0 58628 0 0 0 0
+/new2.php
+0 10 0 10253 0 0 0 0
+/apikone/dodajrazred.png
+1 8 0 55154 0 0 0 0
+/iconss/poruke.png
+1 18 0 103190 0 0 0 0
+/lib/jquery.mousewheel-3.0.6.pack.js
+0 4 0 1553 0 0 0 0
+/ucenik/21
+0 7 0 23357 2 0 0 0
+/postavke.php
+0 1 0 3340 0 0 0 0
+/iconss/porukeh.png
+1 10 0 71978 0 0 0 0
+/apikone/ocjene.png
+1 8 0 49139 0 0 0 0
+/apikone/statistika.png
+1 8 0 45169 0 0 0 0
+/novosti/skins/images/error.gif
+1 1 0 3150 0 0 0 0
+/ajax.php
+0 2 0 3162 0 0 0 0
+/dnevnik/4d/test
+0 1 0 3918 0 0 0 0
+/novosti/example2.php
+0 1 0 3083 0 0 0 0
+/apikone/dodajucenika.png
+1 8 0 89734 0 0 0 0
+/ucenik/ajla.ogric
+0 5 0 16148 0 0 0 0
+/source/jquery.fancybox.js
+0 6 0 15121 0 0 0 0
+/apikone/ucenici.png
+1 8 0 92474 0 0 0 0
+/poruke
+0 13 0 48586 0 1 0 0
+/iconss/profil.png
+1 18 0 70360 0 0 0 0
+/apikone/dnevnicih.png
+1 7 0 64487 0 0 0 0
+/ucenik/greeting
+0 1 0 3555 0 0 0 0
+/odjava
+0 16 0 74858 0 0 0 0
+/apikone/ucenicih.png
+1 8 0 104284 0 0 0 0
+/iconss/odjavah.png
+1 12 0 76249 0 0 0 0
+/brisi.js
+0 72 0 26302 0 0 0 0
+/dnevnik/4d/1
+0 6 0 21813 0 0 0 0
+/dnevnik/4d/2
+0 4 0 12339 0 0 0 0
+/dnevnik/4d/6
+0 1 0 3573 0 0 0 0
+/404
+0 2 0 5818 0 0 0 0
+/apikone/dodajucenikah.png
+1 3 0 61863 0 0 0 0
+/iconss/homebuttonh.png
+1 11 0 51707 0 0 0 0
+/apikone/ocjeneh.png
+1 8 0 60544 0 0 0 0
+/novosti/skins/images/blank.gif
+1 3 0 453 0 0 0 0
+/novosti/skins/images/help_small.gif
+1 3 0 456 0 0 0 0
+/upload/
+0 2 0 1457 0 0 0 0
+/apikone/statistikah.png
+1 3 0 40857 0 0 0 0
+/bgp.png
+1 37 0 107998 0 0 0 0
+/bg.jpg
+1 51 0 22827504 0 0 0 0
+/ajax3.php
+0 7 0 61883 0 0 0 0
+/nav.png
+1 37 0 10708566 0 0 0 0
+/register
+0 2 0 6502 1 0 0 0
+/apikone/postavke.png
+1 8 0 83999 0 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+109.175.96.66
+0 12 11 1087758 2 1420229771
+- 0 0
+66.249.78.50
+0 8 4 15427 2 1420185802
+- 0 0
+95.156.135.1
+0 15 15 2954815 1 1420673395
+- 0 0
+66.249.78.57
+0 7 5 18297 3 1420786034
+- 0 0
+31.176.174.96
+0 34 34 1468973 1 1420972367
+/ 0 0
+66.249.78.64
+0 5 4 10731 2 1420799046
+- 0 0
+89.111.250.33
+0 49 49 3496266 2 1420398190
+- 0 0
+31.176.128.118
+0 11 11 1149629 1 1420270482
+- 0 0
+5.43.89.212
+0 9 9 1143421 1 1420892652
+- 0 0
+31.176.178.22
+0 82 53 208421 2 1420074034
+- 0 0
+31.176.142.240
+0 28 28 1598704 1 1420971859
+/dnevnik 0 0
+66.249.81.152
+0 3 2 5481 2 1420190608
+- 0 0
+66.249.81.155
+0 1 1 4851 1 1420219312
+- 0 0
+66.249.81.158
+0 4 4 13582 3 1420277124
+- 0 0
+92.240.36.60
+0 19 19 1193020 1 1420221648
+- 0 0
+109.163.149.157
+0 17 17 1188039 1 1420540735
+- 0 0
+68.180.228.233
+0 2 1 5341 1 1420358174
+- 0 0
+85.92.229.107
+0 9 9 1146573 1 1420391640
+- 0 0
+92.240.36.6
+0 36 36 1407178 1 1420275824
+- 0 0
+109.175.105.80
+0 23 23 1522789 1 1420549115
+- 0 0
+109.163.159.155
+0 75 75 3052722 1 1420913917
+- 0 0
+37.203.120.29
+0 25 25 1847571 1 1420718436
+- 0 0
+62.113.15.99
+0 17 17 1592374 1 1420725693
+- 0 0
+66.220.159.116
+0 1 1 41370 0 0
+- 0 0
+37.203.75.236
+0 21 21 1569495 1 1420821476
+- 0 0
+66.249.75.46
+0 1 0 470 0 0
+- 0 0
+85.92.228.167
+0 7 4 18583 2 1420239099
+- 0 0
+66.220.158.112
+0 1 1 3804 1 1420221655
+- 0 0
+66.220.158.119
+0 2 2 18612 0 0
+- 0 0
+66.249.75.62
+0 2 1 5316 1 1420898505
+- 0 0
+93.87.229.219
+0 20 20 1427689 3 1420563831
+- 0 0
+66.249.75.78
+0 1 1 4110 0 0
+- 0 0
+31.176.158.187
+0 417 201 4317705 6 1420313475
+- 0 0
+93.138.53.14
+0 39 39 1706271 1 1420397480
+- 0 0
+31.176.187.18
+0 64 64 1821422 1 1420213054
+- 0 0
+173.252.103.2
+0 1 1 41393 0 0
+- 0 0
+173.252.103.4
+0 1 1 41370 0 0
+- 0 0
+31.176.133.135
+0 10 10 1377219 1 1420649899
+- 0 0
+31.176.153.33
+0 150 62 661673 2 1420193968
+- 0 0
+66.249.67.62
+0 6 5 113130 2 1420429335
+- 0 0
+66.249.67.70
+0 4 3 10725 2 1420875658
+- 0 0
+66.249.67.78
+0 8 6 252604 4 1420675758
+- 0 0
+64.246.165.190
+0 1 1 4851 1 1420276013
+- 0 0
+66.249.88.150
+0 1 1 4554 1 1420070880
+- 0 0
+31.176.157.67
+0 9 9 1082212 1 1420131148
+- 0 0
+31.176.169.216
+0 10 10 1147116 1 1420466220
+- 0 0
+173.230.129.121
+0 2 2 31246 1 1420718223
+- 0 0
+109.163.160.102
+0 34 27 95471 4 1420229656
+- 0 0
+95.156.165.140
+0 5 5 30581 1 1420744493
+- 0 0
+31.176.163.188
+0 20 20 1425024 1 1420915827
+- 0 0
+31.176.147.241
+0 9 9 551162 1 1420391193
+- 0 0
+23.227.160.104
+0 1 1 312 0 0
+- 0 0
+109.163.157.250
+0 195 80 440126 2 1420139955
+- 0 0
+185.26.176.111
+0 4 4 19384 4 1420812402
+- 0 0
+109.175.106.107
+0 10 10 1148209 1 1420812252
+- 0 0
+142.4.218.201
+0 1 1 4846 1 1420660870
+- 0 0
+89.146.144.14
+0 21 21 1836242 1 1420660971
+- 0 0
+31.176.171.108
+0 67 42 173426 2 1420083216
+- 0 0
+185.26.176.149
+0 29 29 1483523 1 1420840586
+- 0 0
+# End Of Table - sites (monthly)
+# -sites- (daily)
+31.176.174.96
+0 34 34 1468973 1 1420972367
+/ 0 0
+31.176.142.240
+0 28 28 1598704 1 1420971859
+/dnevnik 0 0
+66.249.75.46
+0 1 0 470 0 0
+- 0 0
+66.249.75.78
+0 1 1 4110 0 0
+- 0 0
+23.227.160.104
+0 1 1 312 0 0
+- 0 0
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 138
+http://whois.domaintools.com/ednevnik.tk
+0 1
+http://dnevnik.mcc.edu.ba/iframestyle.css
+1 4
+http://dnevnik.mcc.edu.ba/upload/
+1 1
+http://mcc.edu.ba/
+0 4
+http://dnevnik.mcc.edu.ba/ap
+1 30
+http://dnevnik.mcc.edu.ba/iframe.html
+1 9
+http://dnevnik.mcc.edu.ba/razrednik
+1 1
+http://www.klix.ba/scitech/tehnologija/momentalni-uvid-u-ocjene-ucenici-iz-tesnja-razvili-aplikaciju-ednevnik/141110094
+0 1
+http://dnevnik.mcc.edu.ba/404
+1 3
+http://dnevnik.mcc.edu.ba/postavke.php
+1 2
+http://dnevnik.mcc.edu.ba/ucenik
+1 32
+http://ednevnik.tk/
+0 18
+http://dnevnik.mcc.edu.ba/dnevnik/4d
+1 11
+http://dnevnik.mcc.edu.ba/ucenik/21
+1 12
+http://dnevnik.mcc.edu.ba/register
+1 3
+http://dnevnik.mcc.edu.ba/ucenici.php
+1 19
+http://dnevnik.mcc.edu.ba/source/jquery.fancybox.css
+1 6
+http://dnevnik.mcc.edu.ba/dnevnik/4d/1
+1 46
+http://dnevnik.mcc.edu.ba/dnevnik/4d/2
+1 12
+http://dnevnik.mcc.edu.ba/statistika
+1 2
+http://dnevnik.mcc.edu.ba/statistika.php
+1 2
+http://dnevnik.mcc.edu.ba/dnevnik/4d/pismena
+1 2
+http://dnevnik.mcc.edu.ba/dnevnik
+1 98
+http://dnevnik.mcc.edu.ba/ucenik/Hasakk
+1 1
+http://www.ednevnik.tk/
+0 1
+http://dnevnik.mcc.edu.ba/greeting
+1 39
+http://dnevnik.mcc.edu.ba/stil.css
+1 392
+http://dnevnik.mcc.edu.ba/poruke
+1 11
+http://dnevnik.mcc.edu.ba/odjava
+1 11
+http://dnevnik.mcc.edu.ba/dnevnik/4d/test
+1 29
+http://dnevnik.mcc.edu.ba/default
+1 41
+http://dnevnik.mcc.edu.ba/postavke
+1 7
+http://www.social3d.webege.com/postavke
+0 1
+http://dnevnik.mcc.edu.ba/ucenik/greeting
+1 1
+http://dnevnik.mcc.edu.ba/novosti/example2.php
+1 1
+http://dnevnik.mcc.edu.ba/monstat
+1 1
+http://dnevnik.mcc.edu.ba/ucenici
+1 14
+http://dnevnik.mcc.edu.ba/ap.php
+1 8
+http://dnevnik.mcc.edu.ba/novosti/
+1 3
+http://dnevnik.mcc.edu.ba/novosti/index.php
+1 91
+http://dnevnik.mcc.edu.ba/onama
+1 66
+http://dnevnik.mcc.edu.ba/ucenik/Hasak
+1 2
+http://dnevnik.mcc.edu.ba/logaut
+1 14
+http://dnevnik.mcc.edu.ba/
+1 474
+http://l.facebook.com/lsr.php
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 1
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google favicon
+0 8
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 49
+Mozilla/5.0 (Linux; Android 4.4.2; SM-G900H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile S
+0 20
+Googlebot-Image/1.0
+0 3
+visionutils/0.2
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 Safari/537.36
+0 9
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 78
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 83
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 28
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 5
+Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0
+0 10
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview Analytics) Chrome/27.0.1453 Safari/537.36 (compatible; 
+0 4
+Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 1061
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 81
+Mozilla/5.0 (Linux; Android 4.2.2; HTC Desire 310 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mob
+0 36
+Mozilla/5.0 (Linux; Android 4.4.2; GT-I9506 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile S
+0 10
+Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 925) like Gecko
+0 9
+Google_Analytics_Snippet_Validator
+0 1
+Mozilla/5.0 (Linux; Android 4.4.2; SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile S
+0 43
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9505/I9505XXUGNE8 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) 
+0 20
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safa
+0 7
+CC Metadata Scaper http://wiki.creativecommons.org/Metadata_Scraper
+0 2
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0
+0 55
+Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+0 25
+Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)
+0 4
+Mozilla/5.0 (Linux; Android 4.1.2; GT-I8190 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Mobile S
+0 10
+Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

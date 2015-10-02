@@ -1,0 +1,452 @@
+﻿/* Venan24 - http://www.fb.com/Venan24 */
+
+
+/* <body> */
+body{
+		background-image:url('pozadina.png');
+		background-repeat:repeat;
+}
+
+/* Logo */
+#hed{
+		-webkit-transition: opacity 0.5s ease-in-out;
+		-moz-transition: opacity 0.5s ease-in-out;
+		-ms-transition: opacity 0.5s ease-in-out;
+		-o-transition: opacity 0.5s ease-in-out;
+		transition: opacity 0.5s ease-in-out;
+		opacity: 1;
+		margin-left: auto ;
+		margin-right: auto ;
+		width: 900px;
+		border-style:solid;
+		border-width:1px;
+		border-color: #0096ff;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+}
+
+#hed:hover {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+
+}
+
+/* Cjelokupna stranica osim Logo-a */
+#mg{
+		width:900px;
+		height:auto;
+		min-height:630px;
+		margin: auto;
+		display: table;
+    /*display:inline-block;*/
+		margin-top:30px;
+		font-family:"Verdana";
+}
+
+/* Desna strana (novosti) */
+#con{
+		background-image:url('desnastrana.png');
+		color:grey;
+		border: 1px solid #0096ff;
+		width:74%;
+		height:auto;
+		min-height:550px;
+		margin-top:5px;
+		float:right;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+}
+
+/* Lijevi dio (navigacija,profil...) */
+#nav{
+		background-image:url('lijeva.png');
+		border: 1px solid #0096ff;
+		width:25%;
+		min-height:550px;
+		height:auto;
+		margin-top:5px;
+		float:left;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+}
+
+/* Profilna slika fadeout */
+#fadeout{
+		-webkit-transition: opacity 0.5s ease-in-out;
+		-moz-transition: opacity 0.5s ease-in-out;
+		-ms-transition: opacity 0.5s ease-in-out;
+		-o-transition: opacity 0.5s ease-in-out;
+		transition: opacity 0.5s ease-in-out;
+		opacity: 1;
+}
+
+#fadeout:hover{
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+/* Borderi iznad profilne slike */
+#logovan{
+     border-bottom: 1px solid #0096ff; 
+     border-top: 1px solid #0096ff; }
+
+
+
+/* Navigacija */
+#navigacija {
+		background-image:url('lijeva.png');
+		width: 100%;
+		height:34px;
+		float: left;
+		padding:0px;
+		list-style: none;
+		border-left: 1px solid #0096ff;
+		border-right: 1px solid #0096ff;
+		border-bottom: 1px solid #0096ff; 
+		border-top: 1px solid #0096ff;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+}
+#navigacija li {
+		float: left; 
+}
+#navigacija li a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+		color: #282828;
+		 
+}
+#navigacija li a:hover {
+		background-color: #adadad;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+}
+
+/* Login */
+#login{
+		margin-top:20px;
+		width:auto;
+		height:auto;
+		font-size:0.75em;
+}
+
+/* Logovan kao padding & username, pw left padding */
+#logovan_kao{
+		margin-left:15px;
+}
+
+/* User login box */
+#user{
+		background-color:gray;
+		font-family:verdana;
+		width:150px;
+		maxlength="20";
+}
+
+/* Password polje */
+#pass{
+		background-color:gray;
+		font-family:verdana;
+		width:150px;
+		maxlength="100";
+}
+
+/* Licenca */
+#license{
+	 margin-top:25px;
+	 border-bottom: 1px solid #0096ff; 
+     border-top: 1px solid #0096ff; 
+}
+
+/* Admin Panel */
+#ap{
+		float:right;
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+		color: #282828;
+}
+#ap:hover{
+		background-color: #adadad;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+}
+
+/* Tabela razreda u Dnevniku (pristup imaju profesori) */
+#razredi{
+		padding-top:30px;
+		font-size:150%;
+		width:450px;
+}
+
+/* Stil button klase */
+.button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000');
+	background-color:#000000;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #00ff00;
+	display:inline-block;
+	color:#00ff00;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:80px;
+	text-decoration:none;
+	text-align:center;
+}
+
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000');
+	background-color:#000000;
+}
+
+.button:active {
+	position:relative;
+	top:1px
+}
+
+.button2 {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b5b5b5), color-stop(1, #b5b5b5) );
+	background:-moz-linear-gradient( center top, #b5b5b5 5%, #b5b5b5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5b5b5', endColorstr='#b5b5b5');
+	background-color:#b5b5b5;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #0096ff;
+	display:inline-block;
+	color:#282828;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:auto;
+	text-decoration:none;
+	text-align:center;
+}
+
+.button2:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b5b5b5), color-stop(1, #b5b5b5) );
+	background:-moz-linear-gradient( center top, #b5b5b5 5%, #b5b5b5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5b5b5', endColorstr='#b5b5b5');
+	background-color:#b5b5b5;
+}
+
+.button2:active {
+	position:relative;
+	top:1px
+}
+
+.brisibutton {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000');
+	background-color:#000000;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #00ff00;
+	display:inline-block;
+	color:#00ff00;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:25px;
+	text-decoration:none;
+	text-align:center;
+}
+
+.brisibutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000000), color-stop(1, #000000) );
+	background:-moz-linear-gradient( center top, #000000 5%, #000000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000');
+	background-color:#000000;
+}
+
+.brisibutton:active {
+	position:relative;
+	top:1px
+}
+
+.regbutton {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff');
+	background-color:#ffffff;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #828282;
+	display:inline-block;
+	color:#828282;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:auto;
+	line-height:auto;
+	width:auto;
+	text-decoration:none;
+	text-align:center;
+}
+.regbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff');
+	background-color:#ffffff;
+}.regbutton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Stil brisi button-a */
+.brisi {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:25px;
+	text-decoration:none;
+	text-align:center;
+}
+.brisi:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}.brisi:active {
+	position:relative;
+	top:1px;
+}
+#predmet{
+font-size:16pt;
+}
+
+/* footer */
+#footer{
+		font-family:verdana;
+		font-size:16px;
+		margin-top:auto;
+		margin-left: auto ;
+		margin-right: auto ;
+		height: 65px;
+		width: 900px;
+		display: inline-block;
+		border-style:solid;
+		border-width:1px;
+		border-color: #0096ff;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		position:relative;
+		bottom:-4px;
+		
+	text-decoration:none;
+}
+
+#footer_tekst{
+	padding:15px;
+	text-decoration:none;
+}
+#footer_tekst a{text-decoration:none;
+color:#606060;
+}
+#footer_tekst a:hover{text-decoration:none;
+color:#000000;
+}
+#dnocj{color:#0096ff;}
+
+#direktor{
+width:1400px;
+border-collapse:collapse;
+font-family:verdana;
+font-size:15px;
+}
+
+#drzac_teksta{
+margin-left:15px;
+margin-right:15px;
+}

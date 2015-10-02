@@ -1,0 +1,7 @@
+<FilesMatch "\b(?!.*index.php.*)(.+)\.(gif|jpg|jpeg|png|mpg|avi|php|doc|docx|txt|pdf|ppt|pptx|jpg|jpeg|gif|png|rtf|xls|xlsx|zip|rar|tar|gzip|swf|fla|mp3|wav|mp4|mov|aiff|m2v|avi|pict|qif|wmv|avi|mpg|flv|f2v|psd|ai|html|xhtml|dhtml|php|asp|css|js|inc)$">
+  Header set Content-Disposition attachment
+</FilesMatch>
+
+
+
+

@@ -1,17 +1,21 @@
-*{
+﻿a{
+text-decoration:none;
+}
+
+/**{
 padding:0px;
 margin:0px;
 }
 
 html{
-	background:url('bg.jpg') no-repeat center center;
+	background:url('bg.jpg') no-repeat fixed;
 	min-height:100%;
 	background-size:cover;
 }
 
 body{
 	min-height:100%;
-	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+	font-family:calibri;
 }
 
 #stranica{
@@ -19,11 +23,17 @@ margin:1% auto 0 auto;
 width:1000px;
 height:900px;
 }
-
+*/
+@font-face {
+	font-family: 'gothic';
+	src: url('gothic.ttf');
+	/*src: local('gothic'), url('/gothic.woff') format('woff'), url('/gothic.ttf') format('truetype');*/
+}
+/*
 /*-------------------------
 	Logo
 --------------------------*/
-
+/*
 #drzac_logo_i_navigacija{
 width:100%;
 height:250px;
@@ -43,21 +53,20 @@ height:170px;
 /*-------------------------
 	Navigacija
 --------------------------*/
-
+/*
 #navigacijaa{
 margin-left:150px;
 margin-top:145px;
-border-top:1px solid black;
-border-bottom:1px solid black;
 width:auto;
-height:60px;
-background-color:white;
-}
-
+}*/
+/*
 #nav {
 width: auto;
+height:60px;
 float: left;
 list-style: none;
+border-top:1px solid black;
+border-bottom:1px solid black;
 }
 
 #nav li {
@@ -84,25 +93,171 @@ transition: background-color 0.3s ease;
 color:white;
 background-color: #9b9b9b;
 }
+*/
+/*-------------------------
+	Navigacija Dnevnik (kod ucenika)
+--------------------------*/
+
+#navigacijaa2{
+margin-left:20px;
+width:578px;
+height:47px;
+}
+
+#nav2 {
+width: auto;
+float: left;
+list-style: none;
+}
+
+#nav2 li {
+float: left; 
+}
+
+#nav2 li a {
+display: block;
+padding: 13px 21px;
+text-decoration: none;
+font: 15px "Oswald", "Lucida Sans Unicode", "sans-serif";
+font-weight: bold;
+background-color: #0B4881;
+color: white;
+border-right: 1px solid black;
+-webkit-transition: background-color 0.3s ease;
+-moz-transition: background-color 0.3s ease;
+-ms-transition: background-color 0.3s ease;
+-o-transition: background-color 0.3s ease;
+transition: background-color 0.3s ease;
+}
+
+
+#nav2 li a:hover {
+color:black;
+background-color: #9b9b9b;
+}
+
+.zadnjiunav{
+width: auto;
+float: left;
+list-style: none;
+}
+
+.zadnjiunav li {
+float: left; 
+}
+
+.zadnjiunav li a{
+display: block;
+padding: 13px 30px;
+text-decoration: none;
+font: 15px "Oswald", "Lucida Sans Unicode", "sans-serif";
+font-weight: bold;
+background-color: #0B4881;
+color: white;
+-webkit-transition: background-color 0.3s ease;
+-moz-transition: background-color 0.3s ease;
+-ms-transition: background-color 0.3s ease;
+-o-transition: background-color 0.3s ease;
+transition: background-color 0.3s ease;
+}
+
+.zadnjiunav li a:hover{
+color:black;
+background-color: #9b9b9b;
+}
+
+/*-------------------------
+	Navigacija postavke
+--------------------------*/
+
+#navpostavke_drzac{
+margin-left:20px;
+width:566px;
+height:50px;
+}
+
+#navigacijapostavke {
+width: auto;
+float: left;
+list-style: none;
+}
+
+#navigacijapostavke li {
+float: left; 
+}
+
+#navigacijapostavke li a {
+display: block;
+padding: 14px 35px;
+text-decoration: none;
+font: 15px "Oswald", "Lucida Sans Unicode", "sans-serif";
+font-weight: bold;
+background-color:#0B4881;
+color: white;
+border-right: 1px solid black;
+-webkit-transition: background-color 0.3s ease;
+-moz-transition: background-color 0.3s ease;
+-ms-transition: background-color 0.3s ease;
+-o-transition: background-color 0.3s ease;
+transition: background-color 0.3s ease;
+}
+
+
+#navigacijapostavke li a:hover {
+color:black;
+background-color: #9b9b9b;
+}
+
+.zadnjiunavpostavke{
+width: auto;
+float: left;
+list-style: none;
+}
+
+.zadnjiunavpostavke li {
+float: left; 
+}
+
+.zadnjiunavpostavke li a{
+display: block;
+padding: 14px 35px;
+text-decoration: none;
+font: 15px "Oswald", "Lucida Sans Unicode", "sans-serif";
+font-weight: bold;
+background-color:#0B4881;
+color: white;
+-webkit-transition: background-color 0.3s ease;
+-moz-transition: background-color 0.3s ease;
+-ms-transition: background-color 0.3s ease;
+-o-transition: background-color 0.3s ease;
+transition: background-color 0.3s ease;
+}
+
+.zadnjiunavpostavke li a:hover{
+color:black;
+background-color: #9b9b9b;
+}
 
 /*-------------------------
 	Drzac sidebara i footera
 --------------------------*/
-
+/*
 #sve{
 width:100%;
 height:auto;
 margin-top:15px;
+display:table;
+padding-bottom:70px;
 }
 
 /*-------------------------
 	Sidebar
 --------------------------*/
-
+/*
 #sidebar{
 float:left;
 width:350px;
-height:580px;
+height:560px;
 border:1px solid black;
 background-image: url('bgp.png');
 background-repeat: repeat;
@@ -114,33 +269,37 @@ margin-left:10px;
 margin-right:10px;
 border-top:1px solid black;
 border-bottom:1px solid black;
-}
+}*/
 
 #drzac_info{
 width:200px;
 height:auto;
-float:right;
+float:left;
 margin-top:20px;
-margin-right:10px;
+margin-left:10px;
 }
 
 #slika{
 float:right;
 width:200px;
-height:300px;
+height:322px;
 }
 
 #slika img{
 width:200px;
 height:auto;
 border:1px solid black;
+max-height: 309px;
 }
 
 #informacije{
 float:right;
 width:200px;
 height:200px;
-border:1px solid black;
+}
+
+#login{
+display: table;
 }
 
 /*-------------------------
@@ -150,16 +309,16 @@ border:1px solid black;
 #drzac_buttona{
 width:120px;
 height:auto;
-float:left;
+float:right;
 margin-top:20px;
-margin-left:10px;
+margin-right:10px;
 }
 
 #homebutton{
 float: left;
 height:95px;
 width:120px;
-background-image:url('icons/homebutton.png');
+background-image:url('iconss/homebutton.png');
 border:1px solid black;
 -webkit-transition: background-image 0.3s ease-in-out;
 -moz-transition: background-image 0.3s ease-in-out;
@@ -170,7 +329,7 @@ transition: background-image 0.3s ease-in-out;
 
 #homebutton:hover{
 border:1.5px solid #199fdf;
-background-image:url('icons/homebuttonh.png');
+background-image:url('iconss/homebuttonh.png');
 cursor:pointer;
 }
 
@@ -180,7 +339,7 @@ height:95px;
 width:120px;
 margin-top:10px;
 border:1px solid black;
-background-image:url('icons/profil.png');
+background-image:url('iconss/profil.png');
 -webkit-transition: background-image 0.3s ease-in-out;
 -moz-transition: background-image 0.3s ease-in-out;
 -ms-transition: background-image 0.3s ease-in-out;
@@ -190,7 +349,7 @@ transition: background-image 0.3s ease-in-out;
 
 #profil:hover{
 border:1.5px solid #199fdf;
-background-image:url('icons/profilh.png');
+background-image:url('iconss/profilh.png');
 cursor:pointer;
 }
 
@@ -199,7 +358,7 @@ float: left;
 height:95px;
 width:120px;
 margin-top:10px;
-background-image:url('icons/poruke.png');
+background-image:url('iconss/poruke.png');
 border:1px solid black;
 -webkit-transition: background-image 0.3s ease-in-out;
 -moz-transition: background-image 0.3s ease-in-out;
@@ -210,7 +369,7 @@ transition: background-image 0.3s ease-in-out;
 
 #poruke:hover{
 border:1.5px solid #199fdf;
-background-image:url('icons/porukeh.png');
+background-image:url('iconss/porukeh.png');
 cursor:pointer;
 }
 
@@ -219,7 +378,7 @@ float: left;
 height:95px;
 width:120px;
 margin-top:10px;
-background-image:url('icons/porukei.png');
+background-image:url('iconss/porukei.png');
 border:1px solid black;
 -webkit-transition: background-image 0.3s ease-in-out;
 -moz-transition: background-image 0.3s ease-in-out;
@@ -230,7 +389,7 @@ transition: background-image 0.3s ease-in-out;
 
 #porukeprocitano:hover{
 border:1.5px solid #199fdf;
-background-image:url('icons/porukeih.png');
+background-image:url('iconss/porukeih.png');
 cursor:pointer;
 }
 
@@ -240,7 +399,7 @@ height:95px;
 width:120px;
 margin-top:10px;
 border:1px solid black;
-background-image:url('icons/postavke.png');
+background-image:url('iconss/postavke.png');
 -webkit-transition: background-image 0.3s ease-in-out;
 -moz-transition: background-image 0.3s ease-in-out;
 -ms-transition: background-image 0.3s ease-in-out;
@@ -250,7 +409,7 @@ transition: background-image 0.3s ease-in-out;
 
 #postavke:hover{
 border:1.5px solid #199fdf;
-background-image:url('icons/postavkeh.png');
+background-image:url('iconss/postavkeh.png');
 cursor:pointer;
 }
 
@@ -260,7 +419,7 @@ height:95px;
 width:120px;
 margin-top:10px;
 border:1px solid black;
-background-image:url('icons/odjava.png');
+background-image:url('iconss/odjava.png');
 -webkit-transition: background-image 0.3s ease-in-out;
 -moz-transition: background-image 0.3s ease-in-out;
 -ms-transition: background-image 0.3s ease-in-out;
@@ -269,18 +428,18 @@ transition: background-image 0.3s ease-in-out;
 }
 
 #odjava:hover{
-background-image:url('icons/odjavah.png');
+background-image:url('iconss/odjavah.png');
 cursor:pointer;
 }
 
 /*-------------------------
 	Content (Sadrzaj stranice)
 --------------------------*/
-
+/*
 #content{
 float:right;
 width:635px;
-min-height:580px;
+min-height:560px;
 border:1px solid black;
 background-image: url('bgp.png');
 background-repeat: repeat;
@@ -301,207 +460,89 @@ width:auto;
 height:auto;
 }
 
+.apklasa{
+width:138px;
+height:138px;
+float:left;
+cursor:pointer;
+border:1px solid #fff;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.apklasa:hover{
+border:1px solid #0b4881;
+}
+
 #profesori{
 background-image: url('apikone/profesori.png');
 margin-left:8px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#profesori:hover{
-background-image: url('apikone/profesorih.png');
 }
 
 #ucenici{
 background-image: url('apikone/ucenici.png');
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#ucenici:hover{
-background-image: url('apikone/ucenicih.png');
 }
 
 #dnevnici{
 background-image: url('apikone/dnevnici.png');
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#dnevnici:hover{
-background-image: url('apikone/dnevnicih.png');
 }
 
 #ocjene{
 background-image: url('apikone/ocjene.png');
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#ocjene:hover{
-background-image: url('apikone/ocjeneh.png');
 }
 
 #obavijesti{
 background-image: url('apikone/obavijesti.png');
 margin-left:8px;
 margin-top:20px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#obavijesti:hover{
-background-image: url('apikone/obavijestih.png');
 }
 
 #statistika{
 background-image: url('apikone/statistika.png');
 margin-top:20px;
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#statistika:hover{
-background-image: url('apikone/statistikah.png');
 }
 
 #vladanje{
 background-image: url('apikone/vladanja.png');
 margin-top:20px;
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#vladanje:hover{
-background-image: url('apikone/vladanjah.png');
 }
 
 #prazan{
+background-image: url('apikone/posjete.png');
 margin-top:20px;
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
-border:1px solid black;
 }
 
 #dodajprof{
 background-image: url('apikone/dodajprof.png');
 margin-left:8px;
 margin-top:20px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#dodajprof:hover{
-background-image: url('apikone/dodajprofh.png');
 }
 
 #dodajucenika{
 background-image: url('apikone/dodajucenika.png');
 margin-top:20px;
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#dodajucenika:hover{
-background-image: url('apikone/dodajucenikah.png');
 }
 
 #dodajrazred{
 background-image: url('apikone/dodajrazred.png');
 margin-top:20px;
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#dodajrazred:hover{
-background-image: url('apikone/dodajrazredh.png');
 }
 
 #postavkea{
 background-image: url('apikone/postavke.png');
 margin-top:20px;
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#postavkea:hover{
-background-image: url('apikone/postavkeh.png');
 }
 
 /*-------------------------
@@ -517,60 +558,24 @@ height:auto;
 #robavijesti{
 background-image: url('apikone/obavijesti.png');
 margin-top:20px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#robavijesti:hover{
-background-image: url('apikone/obavijestih.png');
 }
 
 #rvladanje{
 background-image: url('apikone/vladanja.png');
 margin-top:20px;
 margin-left:10px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#rvladanje:hover{
-background-image: url('apikone/vladanjah.png');
 }
 
 #rdnevnici{
 background-image: url('apikone/dnevnici.png');
 margin-left:10px;
 margin-top:20px;
-float:left;
-width:140px;
-height:140px;
--webkit-transition: background-image 0.3s ease-in-out;
--moz-transition: background-image 0.3s ease-in-out;
--ms-transition: background-image 0.3s ease-in-out;
--o-transition: background-image 0.3s ease-in-out;
-transition: background-image 0.3s ease-in-out;
-}
-
-#rdnevnici:hover{
-background-image: url('apikone/dnevnicih.png');
 }
 
 /*----------------------------
 	Footer
 -----------------------------*/
-
+/*
 footer{
 	background-color: #111111;
 	bottom: 0;
@@ -622,7 +627,627 @@ footer a i b{
 	Sivi button
 --------------------------*/
 
-.button {
+.button2 {
+outline: 0;
+cursor:pointer;
+padding: 5px 12px;
+display: block;
+font: 15px "Oswald", "Lucida Sans Unicode", "sans-serif";
+color:white;
+border: 1px solid black;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+background-color: #0B4881;
+-webkit-transition: all 0.15s ease-in-out;
+moz-transition: all 0.15s ease-in-out;
+-o-transition: all 0.15s ease-in-out;
+-ms-transition: all 0.15s ease-in-out;
+transition: all 0.15s ease-in-out;
+}
+
+.button2 a{
+text-decoration:none;
+}
+
+.button2:hover {
+color:white;
+background-color: #BF984C;
+}
+
+.backbutton{
+	float:right;
+	background-color:#c9c9c9;
+	border:1px solid black;
+	color:#454545;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+	width:80px;
+	height:35px;
+	text-align:center;
+}
+
+.backbutton:hover {
+	cursor:pointer;
+	background-color:#dfdfdf;
+}
+
+input{
+background: none;
+border: 1px solid;
+text-align: center;
+}
+
+/*-------------------------
+	Razne tabele
+--------------------------*/
+
+#razredi{
+width:400px;
+height:150px;
+font-size: 30pt;
+text-align:center
+}
+
+#razredi label{
+width:100%;
+height:100%;
+display:table;
+cursor:pointer;
+}
+
+#razredi :checked + label{
+background-color:#656565;
+border-radius:50%;
+color:#ffffff;
+}
+
+.tabela {
+border-collapse:collapse;
+border-spacing:0;
+border-color:#ccc;
+width:600px;
+}
+
+.tabela td{
+font-family:calibri;
+font-size:14px;
+padding:10px 5px;
+border-style:solid;
+border-width:1px;
+overflow:hidden;
+word-break:normal;
+border-color:#ccc;
+color:#333;
+text-align:center;
+background-color:#fff;
+}
+
+.tabela th{
+font-family:calibri;
+font-size:14px;
+padding:10px 5px;
+border-style:solid;
+border-width:1px;
+overflow:hidden;
+word-break:normal;
+border-color:#ccc;
+font-weight:bold;
+background-color:#656565;
+color:#ffffff;
+text-align:center;
+}
+
+.tabela .crveno{
+background-color:#ffeae9;
+color:#000000;
+text-align:center;
+font-weight:bold;
+}
+
+.tabela tr:hover:not(#prvi_red) td:not(#prva_cell){
+background-color:#ccc;
+}
+
+#prvi_red td{
+font-family:calibri;
+font-size:14px;
+padding:10px 5px;
+border-style:solid;
+border-width:1px;
+overflow:hidden;
+word-break:normal;
+border-color:#ccc;
+font-weight:bold;
+background-color:#656565;
+color:#ffffff;
+text-align:center;
+}
+
+#prva_cell{
+font-family:calibri;
+font-size:14px;
+padding:10px 5px;
+border-style:solid;
+border-width:1px;
+overflow:hidden;
+word-break:normal;
+border-color:#ccc;
+font-weight:bold;
+background-color:#656565;
+color:#ffffff;
+text-align:center;
+}
+
+.tabela label{
+display: table;
+height: 100%;
+width: 100%;
+cursor:pointer;
+}
+
+#uctbl{
+height: 100%;
+width: 100%;
+border-collapse:collapse;
+border-spacing:0;
+}
+
+#uctbl td{
+padding:5px 10px;
+font-family:calibri;
+text-align:left;
+font-size:14px;
+border-bottom:solid;
+border-width:1px;
+border-color:#ccc;
+font-weight:bold;
+overflow:hidden;
+word-break:normal;
+}
+
+.jeea{
+font-style:italic;
+color:#304f74;
+text-align:right;
+}
+
+.jeea2{
+font-style:italic;
+color:#304f74;
+text-align:right;
+padding:5px 10px;
+font-family:calibri;
+text-align:left;
+font-size:14px;
+border-top:solid;
+border-bottom:0px;
+border-width:1px;
+border-color:#ccc;
+font-weight:bold;
+overflow:hidden;
+word-break:normal;
+}
+
+#space{
+height:15px;
+}
+
+.regg label{
+display: table;
+height: 100%;
+width: 100%;
+text-align:center;
+cursor:pointer;
+}
+
+.regg :checked + label{
+background-color:#656565;
+border-radius:50%;
+color:#ffffff;
+}
+
+
+#minit{
+float: left;
+font-size: 25px;
+}
+
+#minit2{
+float: right;
+font-size: 25px;
+}
+
+#div{
+width:400px;
+display: table;
+}
+
+#minit label{
+display: table;
+height: 100%;
+width: 100%;
+text-align:center;
+cursor:pointer;
+}
+
+#minit :checked + label{
+background-color:#656565;
+border-radius:50%;
+color:#ffffff;
+}
+
+#minit2 label{
+display: table;
+height: 100%;
+width: 100%;
+text-align:center;
+cursor:pointer;
+}
+
+#minit2 :checked + label{
+background-color:#656565;
+border-radius:50%;
+color:#ffffff;
+}
+
+#datumdnev{
+width:400px;
+}
+
+#datumdnev label{
+display: table;
+height: 100%;
+width: 100%;
+text-align:center;
+cursor:pointer;
+}
+
+#datumdnev :checked + label{
+background-color:#656565;
+border-radius:50%;
+color:#ffffff;
+}
+
+
+/*-------------------------
+	Spama svakakvog, Bože
+--------------------------*/
+
+#predmet{
+padding:20px;
+font-size: 16pt;
+}
+
+.prosjek{
+background-color: #656565;
+color: white;
+width: 250px;
+border-radius: 50;
+}
+
+#divz{
+margin-left:20px;
+margin-bottom:30px;
+}
+
+#divzak{
+display:none;
+}
+
+#zasel{
+margin-left:50px;
+margin-bottom:30px;
+width:250px;
+}
+
+#statoc{
+display: table;
+/* text-align: center; */
+padding: 0px 20px;
+}
+
+#statoc2{
+display: table;
+padding: 0px 20px;
+}
+
+#statoc table{
+width: 100%;
+}
+
+#statoc2 table{
+width: 100%;
+}
+
+#zaoc{
+float:left;
+margin: 0px 20px;
+}
+
+#sum{
+background: none;
+border: none;
+font-weight: bold;
+font-size:15pt;
+}
+/*-------------------------
+	Scrollbarovi
+--------------------------*/
+
+.ScrollbarPoruke
+{
+	height: 470px;
+	width: 617px;
+	margin-top:20px;
+	overflow-y: scroll;
+}
+
+.ScrollbarProfesoriAP
+{
+	height: 495px;
+	width: 617px;
+	margin-top:25px;
+	overflow-y: scroll;
+}
+
+.ScrollbarUceniciAP
+{
+	height: 505px;
+	width: 617px;
+	margin-top:25px;
+	overflow-y: scroll;
+}
+
+.ScrollbarUneseneOcjeneAP
+{
+	height: 505px;
+	width: 617px;
+	margin-top:25px;
+	overflow-y: scroll;
+}
+
+.ScrollbarObavijestiAP
+{
+	height: 315px;
+	width: 617px;
+	margin-top:25px;
+	overflow-y: scroll;
+}
+
+.ScrollbarUceniciDnevnik
+{
+	height: 505px;
+	width: 617px;
+	margin-top:25px;
+	overflow-y: scroll;
+}
+
+.StatistikaProfiAP
+{
+	height: 505px;
+	width: 617px;
+	margin-top:25px;
+	overflow-y: scroll;
+}
+
+.PromjeneVladanjaAP
+{
+	height: 505px;
+	width: 617px;
+	margin-top:25px;
+	overflow-y: scroll;
+}
+
+.ScrollbarUceniciPretraga
+{
+	height: 460px;
+	width: 617px;
+	margin-top:25px;
+	overflow-y: scroll;
+}
+
+.ScrollbarPosjete
+{
+	height: 495px;
+	width: 617px;
+	margin-top:25px;
+	overflow-y: scroll;
+}
+
+#Stil1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#Stil1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #ccc;
+}
+
+#Stil1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+/*-------------------------
+	Javascript Navigacije (drzaci hidden sadrzaja
+--------------------------*/
+
+#ocjeneucenici{
+display:none;
+width:auto;
+height:auto;
+}
+
+#obavijestiraz{
+display:none;
+width:auto;
+height:auto;
+}
+
+#obavijestidir{
+display:none;
+width:auto;
+height:auto;
+}
+
+#vladanjaucenik{
+display:none;
+width:auto;
+height:auto;
+}
+
+#drzac_sifre{
+display:none;
+width:auto;
+height:auto;
+}
+
+#drzac_promjenaavatara{
+display:none;
+width:auto;
+height:auto;
+}
+
+#drzac_podataka{
+display:none;
+width:auto;
+height:auto;
+}
+
+
+
+/*-------------------------
+	Profil
+--------------------------*/
+
+#drzac_profila{
+margin: 10px 5px 5px 5px;
+width:auto;
+height:auto;
+}
+
+#slika_ucenik{
+float:left;
+max-width:225px;
+max-height:230px;
+}
+#slika_ucenik img{
+max-height:230px;
+max-width:225px;
+border:1px solid;
+border-radius:5px;
+}
+
+#naslov{
+width:100%;
+height:auto;
+background-color:#ededed;
+color:black;
+border:1px solid #9a9a9a;
+border-radius:5px;
+font-style:italic;
+text-align:center;
+}
+
+.naslovmargina{
+margin-top:10px;
+}
+
+#info_ucenik{
+width:390px;
+min-height:230px;
+height:auto;
+float:right;
+}
+
+#napomena_ucenik{
+margin-top:5px;
+width:392px;
+float:right;
+}
+
+#unesinapomenu{
+position:relative;
+float:right;
+width:120px;
+height:35px;
+bottom:-295px;
+}
+
+#ocjene_ucenik{
+margin-top:5px;
+width:228px;
+float:left;
+}
+
+#drzacbuttona{
+float:left;
+width:195px;
+margin-top: 10px;
+height:30px;
+padding-left:15px;
+}
+
+#unesi_ocjenu{
+position:relative;
+float:left;
+width:120px;
+height:35px;
+border-top:1px solid black;
+border-right:1px solid black;
+bottom:-295px;
+}
+
+#zakljuci_ocjenu{
+position:relative;
+float:right;
+width:120px;
+height:35px;
+border-top:1px solid black;
+border-left:1px solid black;
+bottom:-295px;
+}
+
+#ucenik_tabela{
+width:90%;
+}
+
+#zklj_oc{
+float:right;
+height:auto;
+margin-right:25px;
+}
+
+#unesi_oc{
+float:left;
+width:100px;
+height:auto;
+margin-left:15px;
+}
+
+#suma{
+font-weight:bold;
+}
+
+#space{
+height:15px;
+}
+
+
+/*-------------------------
+	Button Unesi Zakljuci
+--------------------------*/
+
+.unosnaprofilu {
 	background-color:#c9c9c9;
 	-webkit-border-top-left-radius:0px;
 	-moz-border-radius-topleft:0px;
@@ -646,32 +1271,343 @@ footer a i b{
 	font-style:normal;
 	height:35px;
 	line-height:35px;
-	width:100px;
+	width:auto;
+	padding-left:20px;
+	padding-right:20px;
 	text-decoration:none;
 	text-align:center;
-}.button:hover {
+}.unosnaprofilu:hover {
 	background-color:#dfdfdf;
-}.button:active {
+}.unosnaprofilu:active {
 	position:relative;
 	top:1px;
 }
 
-.backbutton{
-	float:right;
-	background-color:#c9c9c9;
-	border-left:1px solid black;
-	border-bottom:1px solid black;
-	color:#454545;
-	font-family:Arial;
-	font-size:17px;
-	font-weight:bold;
-	font-style:normal;
-	width:80px;
-	height:35px;
-	text-align:center;
+.btn {
+  background: #f8d33d;
+  background-image: -webkit-linear-gradient(top, #f8d33d, #f8cc31);
+  background-image: -moz-linear-gradient(top, #f8d33d, #f8cc31);
+  background-image: -ms-linear-gradient(top, #f8d33d, #f8cc31);
+  background-image: -o-linear-gradient(top, #f8d33d, #f8cc31);
+  background-image: linear-gradient(to bottom, #f8d33d, #f8cc31);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #000;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-.backbutton:hover {
-	cursor:pointer;
-	background-color:#dfdfdf;
+.btn:hover {
+  background: #f8cc31;
+  background-image: -webkit-linear-gradient(top, #f8cc31, #f8d33d);
+  background-image: -moz-linear-gradient(top, #f8cc31, #f8d33d);
+  background-image: -ms-linear-gradient(top, #f8cc31, #f8d33d);
+  background-image: -o-linear-gradient(top, #f8cc31, #f8d33d);
+  background-image: linear-gradient(to bottom, #f8cc31, #f8d33d);
+  text-decoration: underline;
 }
+
+
+.adminp {
+	background-color:#f8d33d;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #ffaa22;
+	cursor:pointer;
+	color:#333333;
+	position:relative;
+	font-size: 14px;
+	font-weight:bold;
+	margin: 5px 40px 0px 180px;
+	padding: 1px 15px;
+	text-decoration:none;
+}
+.adminp:hover {
+	background-color:#f8cd31;
+}
+.adminp:active {
+	position:relative;
+	top:1px;
+}
+
+.datun{
+
+height: 23px;
+background: none;
+margin-left: -5px;
+width: 45px;
+-webkit-appearance: none;
+font-size: 14;
+}
+
+#trfl span{
+cursor:pointer;
+font-size:19;
+}
+
+.bojaoc0{
+color:#111;
+}
+
+.bojaoc1{
+color:#22f;
+}
+
+.bojaoc2{
+color:#f22;
+}
+.bojaoc3{
+color:#228B22;
+}
+
+td.bpzo0{
+background-color:#fff;
+}
+
+td.bpzo1{
+background-color:#cef;
+}
+
+td.bpzo2{
+background-color:#fbb;
+}
+td.bpzo3{
+background-color:#90EE90;
+}
+
+/*eh sad ide ono novo*/
+
+/* Opća podešavanja */
+*{
+padding:0;
+margin:0;
+font-family:calibri;
+}
+
+body{
+background-image: url(BG.png);
+background-position: right center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;font-family:calibri;
+}
+
+/* Full width, height */
+#ws{
+width:100%;
+height:100%;
+}
+
+/* 20px spaceing */
+.space20px{
+width:100%;
+height:20px;
+}
+
+.space20px-b{
+width:100%;
+height:20px;
+border-bottom:1px solid #2265a4;
+}
+
+/* Držac navigacije i Logo-a */
+#drzac-nav-logo{
+margin-left:auto;
+margin-right:auto;
+width:960px;
+height:150px;
+background-image:url(transparent.png);
+background-repeat:repeat;
+}
+
+/* Logo */
+#logo{
+float:left;
+width:430px;
+height:150px;
+}
+
+/* Navigavija */
+#nav{
+float:right;
+width:530px;
+height:150px;
+}
+
+#drz-navi{
+margin-top:60px;
+float:right;
+height:35px;
+width:auto;
+}
+
+.button-navigacija {
+font: 13px "Oswald", "Lucida Sans Unicode", "sans-serif";
+list-style: none;
+padding: 0; 
+margin: 0; 
+width: 100%; 
+float: left; 
+display: 
+block; 
+margin: 0 0 30px; 
+}
+	
+.button-navigacija li {
+float: left;
+margin: 0 10px 0 0; 
+}
+
+.button-navigacija a {
+text-decoration:none;
+}
+
+.button {
+outline: 0;
+cursor:pointer;
+padding: 5px 12px;
+display: block;
+font: 15px "Oswald", "Lucida Sans Unicode", "sans-serif";
+color:white;
+border: 1px solid black;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+background-color: #0B4881;
+-webkit-transition: all 0.15s ease-in-out;
+moz-transition: all 0.15s ease-in-out;
+-o-transition: all 0.15s ease-in-out;
+-ms-transition: all 0.15s ease-in-out;
+transition: all 0.15s ease-in-out;
+}
+
+.button a{
+text-decoration:none;
+}
+
+.button:hover {
+color:white;
+background-color: #BF984C;
+}
+
+/* Stranica 960px */
+#stranica{
+margin-left:auto;
+margin-right:auto;
+width:1000px;
+min-height:640px;
+background-color:white;
+}
+
+#sadrzaj-stranice{
+width:980px;
+margin-left:10px;
+padding-top:10px;
+}
+
+/* Sidebar */
+#sidebar{
+float:right;
+width:350px;
+min-height:640px;
+}
+
+.sidebar-naslov{
+width:350px;
+height:35px;
+background-color:#2265a4;
+}
+
+.sidebar-naslov p{
+font: 20px "Oswald", "Lucida Sans Unicode", "sans-serif";
+color:white;
+padding:3px 0px 0px 3px;
+}
+
+#grbovi{
+width:350px;
+height:125px;
+}
+
+.grbzepce{
+float:left;
+}
+
+.grbbih{
+float:right;
+}
+
+/* Footer */
+#footer {
+background-image:url("img/footerbg.png");
+background-repeat:repeat-x;
+margin-bottom:5px;
+margin-left:auto;
+margin-right:auto;
+height: 30px;
+width: 980px;
+padding-left:10px;
+padding-right:10px;
+border-top:1px solid white;
+}
+
+.ft1{
+float:left;
+width:auto;
+font: 15px "Oswald", "Lucida Sans Unicode", "sans-serif";
+color:black;
+}
+
+.ft2{
+font: 15px "Oswald", "Lucida Sans Unicode", "sans-serif";
+float:right;
+width:auto;
+color:black;
+}
+
+.ft2 a{
+	font-family:gothic;
+	margin-left:5px;
+text-decoration:none;
+color:#0096ff;
+-webkit-transition: all 0.15s ease-in-out;
+moz-transition: all 0.15s ease-in-out;
+-o-transition: all 0.15s ease-in-out;
+-ms-transition: all 0.15s ease-in-out;
+transition: all 0.15s ease-in-out;
+}
+.ft2 a:hover{
+color:black;
+}
+
+#stil_ocjene:not(#tabela) span[title]:hover{
+  position: relative;
+}
+
+#stil_ocjene:not(#tabela) span:hover:after{
+	content: attr(title);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  background-color:#ccc;
+  
+  left: 100%;
+  white-space: nowrap;
+  z-index: 200;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+

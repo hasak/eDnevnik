@@ -1,0 +1,28 @@
+		
+		.wrap { width: 550px; margin-top: 20px; background: white; padding: 25px; border: solid 1px #ECE9E9; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+		h1 { margin: 0 0 5px 0; font-size:120%; font-weight:normal; color: #666; }
+		a { color: #399ae5; text-decoration: none; } a:hover { color: #206ba4; text-decoration: none; }
+		.note { padding:  0 5px 25px 0; font-size:80%; color: #666; line-height: 18px; }
+		.media_block { clear: both;  min-height: 50px; padding: 10px 15px; border-top: solid 1px #ECE9E9; }
+		.media_block_image { width: 50px; height: 50px; float: left; margin-right: 10px; }
+		.media_block_image a { width: 50px; height: 50px; line-height: 75px; display: block; background: transparent url(icons.png) no-repeat 0 0; } .media_block_image a:hover { text-decoration: none; }
+		.media_block_date { margin-top: 4px; font-size: 70%; color: #666; }
+		.jpg, .jpeg, .gif, .png { background-position: -50px 0 !important; } 
+		.pdf { background-position: -100px 0 !important; }  
+		.txt, .rtf { background-position: -150px 0 !important; }
+		.xls, .xlsx { background-position: -200px 0 !important; } 
+		.ppt, .pptx { background-position: -250px 0 !important; } 
+		.doc, .docx { background-position: -300px 0 !important; }
+		.zip, .rar, .tar, .gzip { background-position: -350px 0 !important; }
+		.swf { background-position: -400px 0 !important; } 
+		.fla { background-position: -450px 0 !important; }
+		.mp3 { background-position: -500px 0 !important; }
+		.wav { background-position: -550px 0 !important; }
+		.mp4 { background-position: -600px 0 !important; }
+		.mov, .aiff, .m2v, .avi, .pict, .qif { background-position: -650px 0 !important; }
+		.wmv, .avi, .mpg { background-position: -700px 0 !important; }
+		.flv, .f2v { background-position: -750px 0 !important; }
+		.psd { background-position: -800px 0 !important; }
+		.ai { background-position: -850px 0 !important; }
+		.html, .xhtml, .dhtml, .php, .asp, .css, .js, .inc { background-position: -900px 0 !important; }
+		.dir { background-position: -950px 0 !important; }

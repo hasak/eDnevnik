@@ -1,4 +1,4 @@
-function clickk()
+﻿function clickk()
 {
 	var user,pass;
 	user=document.getElementById('user').value;
