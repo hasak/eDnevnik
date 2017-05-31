@@ -1,0 +1,55 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.list-group-item{
+    display: flow-root;
+}
+.badge{
+    padding-top: 3px;
+    margin-top: -3px;
+    padding-bottom: 6px;
+}
+footer{
+    width: 100%;
+    /*bottom: 0;*/
+    position: absolute;
+    height: 100px;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+#predinfo{
+    text-align: right;
+}
+.txxlg{
+    font-size: x-large;
+}
+.txlg{
+    font-size: large;
+}
+.txsm{
+    font-size: small;
+}
+.sup{
+    vertical-align: super;
+}
+.hp td{
+    cursor: pointer;
+}
+input[type=radio]+label{
+    cursor: pointer;
+    min-width: 12.5%;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type=radio]{
+    position: absolute;
+    left: -9999px;
+}
+input[type=radio]:checked+label{
+    background-color: #08f;
+    color: #fff;
+}

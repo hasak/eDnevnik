@@ -1,0 +1,103 @@
+@import 'bootstrap/bootstrap.less';
+
+/*!
+ * Gold Bootstrap v3.3.4
+ *
+ * Licensed under the Apache License v2.0
+ *
+ * A project by Kevin Rhodes (iamkevinrhodes.com)
+ * Much love to @phildionne for inspiring this
+ * And of course, I thank the godfathers: @mdo, @fat, and every collaborator to Bootstrap
+ */
+
+
+//== GOLD variables
+
+@gold-ratio:				    1.618;
+
+@gold-ratio-one:        (@gold-ratio - 1); // 0.618 lg
+@gold-ratio-2:          (2 - @gold-ratio);  // 0.382 sm
+@gold-ratio-3:          (@gold-ratio / 2); // 0.809
+@gold-ratio-4:          (@gold-ratio * @gold-ratio); // 2.617924
+@gold-ratio-5:          (@gold-ratio-4 * @gold-ratio); // 4.23580103
+
+
+//== GOLD line-height
+
+@line-height-base:        @gold-ratio; // 1.618
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~23px
+
+
+//== GOLD headings
+
+@font-size-h1:            floor((@font-size-base * @gold-ratio-5)); // ~59px
+@font-size-h2:            ceil((@font-size-base * @gold-ratio-4)); // ~37px
+@font-size-h3:            ceil((@font-size-base * @gold-ratio)); // ~23px
+@font-size-h4:            @font-size-base; // 14px Bootstrap default
+@font-size-h5:            floor((@font-size-base * @gold-ratio-3)); // ~11px
+@font-size-h6:            ceil((@font-size-base * @gold-ratio-2)); // ~9px
+
+//== GOLD grid
+
+.col-gold-lg {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: (@grid-gutter-width / 2);
+  padding-right: (@grid-gutter-width / 2);
+  width: percentage(@gold-ratio-one); // 61.80469716%
+}
+
+.col-gold-sm {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: (@grid-gutter-width / 2);
+  padding-right: (@grid-gutter-width / 2);
+  width: percentage(@gold-ratio-2);   // 0.318%
+}
+
+.col-gold-offset-sm {
+  margin-left: percentage(@gold-ratio-one);
+}
+
+.col-gold-offset-lg {
+  margin-left: percentage(@gold-ratio-2);
+}
+
+//== GOLD helpers
+
+@gold-space-sm:	(@line-height-computed); // 21px
+@gold-space-md:	(@line-height-computed * 2); // 42px
+@gold-space-lg:	(@line-height-computed * 5); // 105px
+
+
+.gold-margin-sm {
+  margin-bottom: @gold-space-sm; // 21px
+}
+
+.gold-margin-md {
+  margin-bottom: @gold-space-md; // 42px
+}
+
+.gold-margin-lg {
+  margin-bottom: @gold-space-lg; // 21px
+}
+
+//== Media Query to drop gold-bootstrap when screens get small
+
+@media (max-width: 991px) {
+	.col-gold-sm, .col-gold-lg {
+	    width: 100%;
+	}
+	
+	.col-gold-offset-sm {
+		padding-left: (@grid-gutter-width / 2);
+	}
+
+	.col-gold-offset-lg {
+		padding-left: (@grid-gutter-width / 2);
+	}
+	
+}
+
